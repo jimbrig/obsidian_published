@@ -12,6 +12,5 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-roamlinks-plugin
+      - run: pip install mkdocs mkdocs-autolinks-plugin mkdocs-awesome-pages-plugin mkdocs-git-revision-date-localized-plugin mkdocs-monorepo-plugin mkdocs-roamlinks-plugin mkdocs-minify-pluginpip install mkdocs-material
       - run: mkdocs gh-deploy --force
