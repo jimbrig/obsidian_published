@@ -13,7 +13,7 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs
-      - run: pip install mkdocs-roalinks-plugin
+      - run: pip install mkdocs-roamlinks-plugin
       - run: pip install mkdocs-awesome-pages-plugin
       - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install mkdocs-monorepo-plugin
