@@ -1,43 +1,141 @@
-site_name: obsidian-mkdocs template
+# project metadata
+site_name: JimsVault
+site_description: Personal Obsidian Vault Published using MkDocs
+site_author: Jimmy Briggs
+site_url: https://vault.jimbrig.com
+copyright: Copyright &copy; 2021 Jimmy Briggs
 
+# repo
+repo_url: https://github.com/jimbrig/obsidian_published
+repo_name: jimbrig/obsidian_published
+remote_branch: gh-pages
+edit_uri: blob/main/docs/
+
+# Customization
+extra:
+  version: 1.0
+  # social:
+  #   - icon: fontawesome/brands/twitter
+  #     link: https://twitter.com/powwater
+  #     name: Follow us on Twitter!
+  #   - icon: fontawesome/brands/facebook
+  #     link: https://facebook.com/powwater
+  #     name: Like our Facebook Page!
+  #   - icon: fontawesome/brands/github-alt
+  #     link: https://github.com/powwater
+  #     name: Check our repositories!
+
+# theme
 theme:
-    name: 'material'
-    palette:
+  name: null
+  custom_dir: cinder
+  colorscheme: dracula
+  highlightjs: true
+  language: "en"
+  features:
+    - tabs
+    - search.highlight
+  # palette:
+  #   primary: white
+  #   accent: blue
+  #   scheme: default
+  # logo:
+  favicon: "_attachments/obsidian.ico"
+  # font:
+  #   text:
+  #   code:
+  icon:
+    repo: fontawesome/brands/github
+  # custom_dir: pow_theme/
 
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: pink
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+# extra_css:
+#   - assets/css/extra.css
 
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: pink
-      accent: blue
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+# extra_javascript:
+#   - "https://code.jquery.com/jquery-3.3.1.min.js"
+#   - assets/js/extra.js
+#   - assets/js/blockly_compressed.js
+#   - search/search_index.js
 
-# Extensions
+# navbar
+nav:
+  - Home: index.md
+  - Rest:
+      - ...
+  # - Topics:
+  #     - Cloud:
+  #         - Google Cloud Setup Notes: "Cloud/Google Cloud Setup Notes.md"
+  #   - Databases:
+  #     - PostgreSQL:
+  #       -
+  # - About:
+  #     - Services: about/services.md
+  #     - Team: about/team.md
+  #     - Terms: about/terms.md
+  #     - FAQ: faq.md
+  # - Resources:
+  #     - Links: resources/links.md
+  #     - Repositories: resources/repos.md
+  #     - Issue Tracker: "https://github.com/orgs/powwater/projects/1"
+  # - Development:
+  #     - Tech Stack: development/techstack.md
+  #     - Developer Tools: development/devtools.md
+  #     - React Native: development/reactnative.md
+  #     - Mapping: development/mapping.md
+  #     - Developers: development/developers.md
+  # - Apps:
+  #     - Landing Page: "https://apps.powwater.org"
+  #     - Vendors Dashboard Web Application:
+  #         - Development: apps/vendorsdashboard/development.md
+  #         - Requirements: apps/vendorsdashboard/requirements.md
+  #     - Vendors Mobile Application:
+  #         - Requirements: apps/vendorsmobileapp/requirements.md
+  # - API:
+  #     - Powwater API: api/powapi.md
+  #     - Authentication: api/auth.md
+  #     - Powpolished API: api/powpolished.md
+  #     - Lifetime of an Order: api/order_lifetime.md
+
+# config
+use_directory_urls: true
+
+# markdown extensions
 markdown_extensions:
-  - footnotes
-  # - attr_list
-  # - pymdownx.arithmatex
-  # - pymdownx.superfences
-  # - pymdownx.details
-  # - pymdownx.magiclink
-  # - pymdownx.tasklist:
-  #     custom_checkbox: true
-#  - pymdownx.emoji:
-#      emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  # - admonition
   - toc:
       permalink: true
+  - codehilite:
+      linenums: false
+      guess_lang: true
+  - footnotes
+
+# plugins
+# plugins:
+#   - search:
+#       separator: '[\s\-\.]+'
+#       min_search_length: 2
+
+# theme:
+#   name: "material"
+#   palette:
+#     # Light mode
+#     - media: "(prefers-color-scheme: light)"
+#       scheme: default
+#       primary: pink
+#       accent: indigo
+#       toggle:
+#         icon: material/toggle-switch-off-outline
+#         name: Switch to dark mode
+
+#     # Dark mode
+#     - media: "(prefers-color-scheme: dark)"
+#       scheme: slate
+#       primary: pink
+#       accent: blue
+#       toggle:
+#         icon: material/toggle-switch
+#         name: Switch to light mode
 
 plugins:
   - search
-  - roamlinks 
+  - roamlinks
+  - awesome-pages

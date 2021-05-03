@@ -1,11 +1,11 @@
 ---
-creation date: 2021-04-25 00:04
-modification date: Sunday 25th April 2021 00:04:52
+creation date: <% tp.file.creation_date() %>
+modification date: <% tp.file.creation_date("dddd Do MMMM YYYY HH:mm:ss") %>
 tags: ["#moc"]
 author: Jimmy Briggs
 ---
 
-# moc- Contents
+# <% tp.file.title %>- Contents
 
 ## Contents:
 

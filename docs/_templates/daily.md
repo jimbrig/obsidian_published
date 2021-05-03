@@ -1,15 +1,14 @@
 ---
-Date: 2021-05-02
+Date: <% tp.date.now() %>
 Tags: "#daily"
 Author: Jimmy Briggs
 ---
 
-<< [[2021-05-01]] | [[2021-05-03]] >>
+<< [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
 
-# Sunday, May 2021
+# <% tp.date.now("dddd, MMMM YYYY") %>
 
-> Whether you think you can or think you can't, you're right..
-> &mdash; <cite>Henry Ford</cite>
+<% tp.web.daily_quote() %>
 
 
 ## ✔️ Todo:
