@@ -1,5 +1,6 @@
 # Published Vault
 
+[![Publish Vault](https://github.com/jimbrig/obsidian_published/actions/workflows/publish.yml/badge.svg)](https://github.com/jimbrig/obsidian_published/actions/workflows/publish.yml)
 ## Setup
 
 ### MkDocs
