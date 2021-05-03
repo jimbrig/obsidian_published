@@ -19,7 +19,7 @@
 - [WSL](./WSL/index.md)
 - [Web Development](./Web%20Development/index.md)
 - [Windows](./Windows/index.md)
-- [_daily](./_daily/index.md)
+- [Daily Notes](./_daily/index.md)
 
 ## Documents
 - [Changelog](Changelog.md)
