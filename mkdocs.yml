@@ -1,141 +1,88 @@
-# project metadata
-site_name: JimsVault
+---
+site_name: Jims Obsidian Vault
 site_description: Personal Obsidian Vault Published using MkDocs
 site_author: Jimmy Briggs
 site_url: https://vault.jimbrig.com
 copyright: Copyright &copy; 2021 Jimmy Briggs
-
-# repo
 repo_url: https://github.com/jimbrig/obsidian_published
 repo_name: jimbrig/obsidian_published
 remote_branch: gh-pages
 edit_uri: blob/main/docs/
-
-# Customization
-extra:
-  version: 1.0
-  # social:
-  #   - icon: fontawesome/brands/twitter
-  #     link: https://twitter.com/powwater
-  #     name: Follow us on Twitter!
-  #   - icon: fontawesome/brands/facebook
-  #     link: https://facebook.com/powwater
-  #     name: Like our Facebook Page!
-  #   - icon: fontawesome/brands/github-alt
-  #     link: https://github.com/powwater
-  #     name: Check our repositories!
-
-# theme
+use_directory_urls: true
+plugins:
+  - search
+  # - autolinks
+  # - section-index
+  # - mkdocs-newsletter
+  - roamlinks
+  - awesome-pages
+  - git-revision-date-localized:
+      type: timeago
+  - minify:
+      minify_html: true
+markdown_extensions:
+  - toc:
+      permalink: ⚑
+      baselevel: 2
+  - codehilite:
+      linenums: false
+      guess_lang: true
+  - footnotes
+  - abbr
+  - admonition
+  - meta
+  - def_list
+  # - pymdownx.arithmatex
+  # - pymdownx.betterem:
+  #     smart_enable: all
+  # - pymdownx.caret
+  # - pymdownx.critic
+  # - pymdownx.details
+  # - pymdownx.emoji:
+  #     emoji_generator: "!!python/name:pymdownx.emoji.to_svg"
+  # - pymdownx.inlinehilite
+  # - pymdownx.magiclink
+  # - pymdownx.mark
+  # - pymdownx.smartsymbols
+  # - pymdownx.snippets
+  # - pymdownx.superfences
+  # - pymdownx.tabbed
+  # - pymdownx.tasklist:
+  #     custom_checkbox: true
+  # - pymdownx.tilde
 theme:
   name: null
   custom_dir: cinder
   colorscheme: dracula
   highlightjs: true
   language: "en"
+  favicon: "_attachments/obsidian.ico"
+  icon:
+    repo: fontawesome/brands/github
   features:
     - tabs
     - search.highlight
-  # palette:
-  #   primary: white
-  #   accent: blue
-  #   scheme: default
-  # logo:
-  favicon: "_attachments/obsidian.ico"
-  # font:
-  #   text:
-  #   code:
-  icon:
-    repo: fontawesome/brands/github
-  # custom_dir: pow_theme/
-
-# extra_css:
-#   - assets/css/extra.css
-
-# extra_javascript:
-#   - "https://code.jquery.com/jquery-3.3.1.min.js"
-#   - assets/js/extra.js
-#   - assets/js/blockly_compressed.js
-#   - search/search_index.js
-
-# navbar
 nav:
   - Home: index.md
-  - Rest:
+  - Featured:
+      - ... | R/*.md
+      - ... | Cloud/*.md
+      - ... | Databases/*.md
+      - ... | Windows/*.md
+  - All:
       - ...
-  # - Topics:
-  #     - Cloud:
-  #         - Google Cloud Setup Notes: "Cloud/Google Cloud Setup Notes.md"
-  #   - Databases:
-  #     - PostgreSQL:
-  #       -
-  # - About:
-  #     - Services: about/services.md
-  #     - Team: about/team.md
-  #     - Terms: about/terms.md
-  #     - FAQ: faq.md
-  # - Resources:
-  #     - Links: resources/links.md
-  #     - Repositories: resources/repos.md
-  #     - Issue Tracker: "https://github.com/orgs/powwater/projects/1"
-  # - Development:
-  #     - Tech Stack: development/techstack.md
-  #     - Developer Tools: development/devtools.md
-  #     - React Native: development/reactnative.md
-  #     - Mapping: development/mapping.md
-  #     - Developers: development/developers.md
-  # - Apps:
-  #     - Landing Page: "https://apps.powwater.org"
-  #     - Vendors Dashboard Web Application:
-  #         - Development: apps/vendorsdashboard/development.md
-  #         - Requirements: apps/vendorsdashboard/requirements.md
-  #     - Vendors Mobile Application:
-  #         - Requirements: apps/vendorsmobileapp/requirements.md
-  # - API:
-  #     - Powwater API: api/powapi.md
-  #     - Authentication: api/auth.md
-  #     - Powpolished API: api/powpolished.md
-  #     - Lifetime of an Order: api/order_lifetime.md
+  - Daily Notes:
+      - ... | _daily/*.md
+  - Changelog: Changelog.md
+  - Setup: setup.md
 
-# config
-use_directory_urls: true
-
-# markdown extensions
-markdown_extensions:
-  - toc:
-      permalink: true
-  - codehilite:
-      linenums: false
-      guess_lang: true
-  - footnotes
-
-# plugins
-# plugins:
-#   - search:
-#       separator: '[\s\-\.]+'
-#       min_search_length: 2
-
-# theme:
-#   name: "material"
-#   palette:
-#     # Light mode
-#     - media: "(prefers-color-scheme: light)"
-#       scheme: default
-#       primary: pink
-#       accent: indigo
-#       toggle:
-#         icon: material/toggle-switch-off-outline
-#         name: Switch to dark mode
-
-#     # Dark mode
-#     - media: "(prefers-color-scheme: dark)"
-#       scheme: slate
-#       primary: pink
-#       accent: blue
-#       toggle:
-#         icon: material/toggle-switch
-#         name: Switch to light mode
-
-plugins:
-  - search
-  - roamlinks
-  - awesome-pages
+# extra_css:
+#   - stylesheets/extra.css
+#   - stylesheets/links.css
+extra:
+  version: 1.0
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/jimbrig
+    - icon: fontawesome/solid/rss
+      link: https://lyz-code.github.io/blue-book/newsletter/0_newsletter_index

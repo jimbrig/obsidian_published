@@ -1,8 +1,27 @@
-# Obsidian Notes
+# Welcome to my [Obsidian](https://obsidian.md) Vault 🔒
 
-Publish your public notes with MkDocs
+## Contents 📃
 
-## Hello World!
+- [Cloud](Cloud/)
+- [Databases](Databases/)
+- [Developer Tools](Developer%20Tools/)
+- [Docker](Docker/)
+- [Documentation](Documentation/)
+- [Git](Git/)
+- [Github](Github/)
+- [Obsidian](Obsidian/)
+- [Personal Knowledge Management (PKM)](PKM/)
+- [Productivity](Productivity/)
+- [Project Management](Project%20Management)
+- [Python](Python/)
+- [R](R/)
+- [System Design](System%20Design/)
+- [Web Development](Web%20Development/)
+- [Windows](Windows/)
+- [WSL](WSL/)
 
-The `index.md` in the `/docs` folder is the homepage you see here.
+***
 
+- [Change Log](Changelog.md) ⌛
+
+***
