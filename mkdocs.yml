@@ -66,9 +66,12 @@ nav:
   - Home: index.md
   - Featured:
       - ... | R/*.md
-      - ... | Cloud/*.md
+      - ... | R/Databases with R/*.md
+      - ... | GCP/*.md
       - ... | Databases/*.md
       - ... | Windows/*.md
+      - ... | WSL/*.md
+      - ... | System Design/*.md
   - All:
       - ...
   - Daily Notes:
