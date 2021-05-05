@@ -1,7 +1,7 @@
 # R
 
 ## Categories
-
+- [Databases with R](./Databases%20with%20R/index.md)
 
 ## Documents
 - [Base Package Hidden Gems in R](Base Package Hidden Gems in R.md)
@@ -14,6 +14,7 @@
 - [R Books](R Books.md)
 - [R Development](R Development.md)
 - [R Miscellaneous Notes](R Miscellaneous Notes.md)
+- [R Shiny Packages](R Shiny Packages.md)
 - [RStudio Configuration Notes](RStudio Configuration Notes.md)
 - [Shiny Apps as Packages in R](Shiny Apps as Packages in R.md)
 - [Tools Package Hidden Gems in R](Tools Package Hidden Gems in R.md)

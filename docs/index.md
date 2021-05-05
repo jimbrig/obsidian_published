@@ -1,12 +1,15 @@
-# Welcome
+# docs
 
 ## Categories
 - [Cloud](./Cloud/index.md)
 - [Databases](./Databases/index.md)
+- [Developer Tools](./Developer%20Tools/index.md)
 - [Docker](./Docker/index.md)
 - [Documentation](./Documentation/index.md)
+- [GCP](./GCP/index.md)
 - [Git](./Git/index.md)
 - [Github](./Github/index.md)
+- [Lists](./Lists/index.md)
 - [Obsidian](./Obsidian/index.md)
 - [PKM](./PKM/index.md)
 - [Powwater](./Powwater/index.md)
@@ -19,8 +22,9 @@
 - [WSL](./WSL/index.md)
 - [Web Development](./Web%20Development/index.md)
 - [Windows](./Windows/index.md)
-- [Daily Notes](./_daily/index.md)
+- [_daily](./_daily/index.md)
 
 ## Documents
 - [Changelog](Changelog.md)
+- [README](README.md)
 - [setup](setup.md)
