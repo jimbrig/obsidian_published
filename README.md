@@ -1,5 +1,7 @@
 # Published Vault
 
+[![Create markdown indexes](https://github.com/jimbrig/obsidian_published/actions/workflows/index.yml/badge.svg)](https://github.com/jimbrig/obsidian_published/actions/workflows/index.yml)
+
 [![Publish Vault](https://github.com/jimbrig/obsidian_published/actions/workflows/publish.yml/badge.svg)](https://github.com/jimbrig/obsidian_published/actions/workflows/publish.yml)
 ## Setup
 
