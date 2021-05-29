@@ -1,8 +1,4 @@
-# Jims Obsidian Vault
-
-View the full vault at [jimbrig/obsidian_vault](https://github.com/jimbrig/obsidian_vault).
-
-Published Vault is a `submodule` corresponding to this repo: [jimbrig/obsidian_published](https://github.com/jimbrig/obsidian_published).
+# docs
 
 ## Categories
 - [Cloud](./Cloud/index.md)
