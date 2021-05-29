@@ -75,7 +75,7 @@ nav:
         - ... | Windows/*.md
         - ... | WSL/*.md
         - ... | System Design/*.md
-      - Everything Else:
+      - Everything:
         - ...  
   - Changelog: Changelog.md
 # extra_css:
