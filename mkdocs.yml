@@ -64,20 +64,20 @@ theme:
     - search.highlight
 nav:
   - Home: index.md
-  - Featured:
-      - ... | R/*.md
-      - ... | GCP/*.md
-      - ... | Databases/*.md
-      - ... | Windows/*.md
-      - ... | WSL/*.md
-      - ... | System Design/*.md
-  - All:
-      - ...
-  - Daily Notes:
-      - ... | _daily/*.md
+  - Setup: setup.md      
+  - Categories:
+      - Daily Notes:
+        - ... | _daily/*.md
+      - Featured:
+        - ... | R/*.md
+        - ... | GCP/*.md
+        - ... | Databases/*.md
+        - ... | Windows/*.md
+        - ... | WSL/*.md
+        - ... | System Design/*.md
+      - Everything Else:
+        - ...  
   - Changelog: Changelog.md
-  - Setup: setup.md
-
 # extra_css:
 #   - stylesheets/extra.css
 #   - stylesheets/links.css
