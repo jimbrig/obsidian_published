@@ -1,4 +1,4 @@
-# _daily
+# Daily Notes
 
 ## Categories
 
