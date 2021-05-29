@@ -1,4 +1,4 @@
-# docs
+# JimsVault
 
 ## Categories
 - [Cloud](./Cloud/index.md)
