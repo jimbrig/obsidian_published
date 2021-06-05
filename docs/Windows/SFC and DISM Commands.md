@@ -37,7 +37,7 @@ The `sfc /scannow` command is a well known way to do an integrity check of all W
 
 ### Add SFC /Scannow to Desktop Context Menu:
 
-![image-20210327021421066](images/image-20210327021421066.png)
+![image-20210327021421066](images/75fd153f5ebcd65f454177ebe73be758.png)
 
 Registry Script:
 
@@ -84,7 +84,7 @@ They can be used to analyze errors and see completed operations.
 
 ### Add DISM to Desktop Context Menu:
 
-![image-20210327021344936](images/image-20210327021344936.png)
+![image-20210327021344936](images/30a735f876001d6cee61a4dcc976f71a.png)
 
 Registry Script:
 

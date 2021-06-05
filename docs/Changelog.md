@@ -1,5 +1,5 @@
 - 2021-05-05 at 00h02 · [[Firefox Developer Edition]]
-- 2021-05-05 at 00h02 · [[Web Browsers]]
+- 2021-05-05 at 00h02 · [[_published/docs/Tools/Web Browsers/Web Browsers]]
 - 2021-05-05 at 00h02 · [[APIs]]
 - 2021-05-05 at 00h02 · [[index]]
 - 2021-05-05 at 00h02 · [[README]]
